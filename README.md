@@ -26,8 +26,6 @@
 
    ```bash
     cd /path/to/picoquic
-    cmake -DPICOQUIC_FETCH_PTLS=Y .
-    make
     mkdir build && cd build
     cmake .. -DPICOQUIC_FETCH_PTLS=ON -DCMAKE_POSITION_INDEPENDENT_CODE=ON
     make -j$(nproc)
@@ -46,7 +44,7 @@
     ./ns3 build
     ```
 
-6. Run the picoquic examples
+5. Run the picoquic examples
 
     ```bash
     ./ns3 run picoquic-ns3-example
