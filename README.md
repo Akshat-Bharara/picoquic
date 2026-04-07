@@ -18,7 +18,7 @@
 3. Clone the Picoquic Simulation Module
 
     ```bash
-    https://gitlab.com/nitk8030113/picoquic-ns3.git
+    git clone https://gitlab.com/nitk8030113/picoquic-ns3.git
     ```
 
 4. Clone Picoquic into the third-party directory
