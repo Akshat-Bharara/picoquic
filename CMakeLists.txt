@@ -12,7 +12,7 @@
 set(PICOQUIC_PREFIX "" CACHE PATH "Path to picoquic source/build tree")
 
 if("${PICOQUIC_PREFIX}" STREQUAL "")
-    set(PICOQUIC_PREFIX "${CMAKE_CURRENT_SOURCE_DIR}/../../pico/picoquic"
+    set(PICOQUIC_PREFIX "${CMAKE_CURRENT_SOURCE_DIR}/../../third-party/picoquic"
         CACHE PATH "Path to picoquic source/build tree" FORCE)
 endif()
 
